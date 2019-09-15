@@ -1,0 +1,29 @@
+{
+  "name": "speedometer-server",
+  "version": "1.0.0",
+  "description": "get a speed",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roni Mc",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "2.8.4",
+    "ddos": "^0.2.1",
+    "express": "4.16.3",
+    "http-server": "0.11.1",
+    "socket.io": "1.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
