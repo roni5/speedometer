@@ -1,29 +1,49 @@
 {
-  "name": "speedometer-server",
-  "version": "1.0.0",
-  "description": "get a speed",
-  "main": "index.js",
-  "scripts": {
-    "devstart": "nodemon ./bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Roni Mc",
-  "license": "ISC",
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bcrypt": "^3.0.6",
-    "cors": "2.8.4",
-    "ddos": "^0.2.1",
-    "express": "4.16.3",
-    "http-server": "0.11.1",
-    "socket.io": "1.7.0"
+    "fsevents": "^2.0.7",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "react-websocket": "^2.0.1",
+    "socket.io-client": "^2.2.0",
+    "use-socket.io-client": "^1.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
     "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.2.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.18.2"
   }
 }
